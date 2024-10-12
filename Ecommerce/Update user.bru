@@ -5,7 +5,16 @@ meta {
 }
 
 put {
-  url: http://localhost:8080/user
-  body: none
+  url: http://localhost:8080/user/6
+  body: json
   auth: none
+}
+
+body:json {
+  
+  { 
+  "name": "ismael",
+  "email": "ismael@gmail.com",
+  "password":"1234"
+  }
 }
